@@ -1,4 +1,4 @@
-import * as THREE from "./three";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.118.3/build/three.module.js";
 
 import fragment from "./shaders/fragment.glsl";
 import vertex from "./shaders/vertex.glsl";
