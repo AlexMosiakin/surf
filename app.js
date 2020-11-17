@@ -2,9 +2,9 @@ import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.118.3/build/three.m
 
 import fragment from "./shaders/fragment.glsl";
 import vertex from "./shaders/vertex.glsl";
-import * as dat from "dat.gui";
+import * as dat from "https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.js";
 
-import { TimelineMax } from "gsap";
+import { TimelineMax } from "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js";
 let OrbitControls = require("three-orbit-controls")(THREE);
 
 export default class Sketch{
